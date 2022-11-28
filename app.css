@@ -6,7 +6,7 @@
     --mantis: #86CD82;
     --forset-green: #72A276;
     --dim-grey: #666B6A;
-    --neon: rgb(2, 212, 2);
+    --neon: rgb(26, 212, 2);
 }
 
 html, body {
@@ -63,3 +63,4 @@ html, body {
     background-color: var(--neon);
     color: black;
 }
+
