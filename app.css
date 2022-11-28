@@ -6,6 +6,7 @@
     --mantis: #86CD82;
     --forset-green: #72A276;
     --dim-grey: #666B6A;
+    --neon: rgb(2, 212, 2);
 }
 
 html, body {
@@ -17,15 +18,50 @@ html, body {
 }
 
 .menu-container {
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    color: var(--neon);
+    background-color: black;
+    border-right: solid 0.10rem var(--neon);
 }
 
 .icon {
     cursor: pointer;
-    color: var(--forset-green);
+    color: var(--neon);
 
 }
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.main-page {
+    background-color: black;
+    color: var(--neon);
+}
+
+.d-hidden {
+    visibility: hidden;
+}
+
+.pixelated {
+    box-shadow:   -2px 0 0 0 var(--neon),
+    2px 0 0 0 var(--neon),
+    0 -2px 0 0 var(--neon),
+    0 2px 0 0 var(--neon);
+}
+
+.eye {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 5rem;
+}
+
+.eye-center {
+    background-color: var(--neon);
+    height: 0.5rem;
+    width: 0.5rem;
+}
+
+.menu-item:hover {
+    background-color: var(--neon);
+    color: black;
 }
