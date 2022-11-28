@@ -25,8 +25,6 @@ html, body {
 
 .icon {
     cursor: pointer;
-    color: var(--neon);
-
 }
 
 .cursor-pointer {
