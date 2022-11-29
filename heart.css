@@ -1,7 +1,6 @@
 .heart {
     width: 5rem;
-    height: 5rem;
-    margin: 5rem 0 0 5rem;
+    height: 7rem;
 }
 .heart:hover::before {
     -webkit-animation-play-state: paused;
@@ -16,7 +15,7 @@
     width: 15px;
     height: 15px;
     margin: -15px 0 0 -15px;
-    box-shadow: 30px 15px #308e19, 45px 15px #00ac4d, 75px 15px #0cf73f, 90px 15px #27fa66, 15px 30px #007413, 30px 30px #008e1f, 45px 30px #188e3b, 60px 30px #00ca4d, 75px 30px #2bf34c, 90px 30px #1fdf59, 105px 30px #2af756, 15px 45px #004b16, 30px 45px #690100, 45px 45px #8e0f0b, 60px 45px #bf1000, 75px 45px #f84010, 90px 45px #f04222, 105px 45px #fa5724, 15px 60px #451312, 30px 60px #5a0100, 45px 60px #840e0c, 60px 60px #a51d1a, 75px 60px #ed2805, 90px 60px #d9321e, 105px 60px #f44622, 30px 75px #3b0000, 45px 75px #5d1a1b, 60px 75px #8e1a19, 75px 75px #a80700, 90px 75px #b90a00, 45px 90px #3d0000, 60px 90px #551415, 75px 90px #670100, 60px 105px #340000;
+    box-shadow: 30px 15px #308e19, 45px 15px #00ac4d, 75px 15px #0cf73f, 90px 15px #27fa66, 15px 30px #007413, 30px 30px #008e1f, 45px 30px #188e3b, 60px 30px #00ca4d, 75px 30px #2bf34c, 90px 30px #1fdf59, 105px 30px #2af756, 15px 45px #004b16, 30px 45px #006928, 45px 45px #0b8e37, 60px 45px #00bf5f, 75px 45px #10f856, 90px 45px #22f071, 105px 45px #24fa6b, 15px 60px #124521, 30px 60px #005a26, 45px 60px #0c8442, 60px 60px #1aa54f, 75px 60px #05ed4b, 90px 60px #1ed95c, 105px 60px #22f479, 30px 75px #003b19, 45px 75px #1a5d3c, 60px 75px #198e5d, 75px 75px #00a840, 90px 75px #00b95c, 45px 90px #003d1e, 60px 90px #145531, 75px 90px #00673c, 60px 105px #00341a;
 }
 @-webkit-keyframes pulse {
     50% {
